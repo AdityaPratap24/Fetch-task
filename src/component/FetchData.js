@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
-// import { useCookies } from 'react-cookie';
 
 const FetchData = () => {
   const [fetchedData, setFetchedData] = useState([]);
-  // const [cookies, setCookie] = useCookies(['name']);
   const [decline, setDecline] = useState("");
   let WEB_URL = "https://www.nseindia.com/api/market-data-pre-open?key=NIFTY";
 
